@@ -160,7 +160,7 @@ sudo apt-get upgrade
 
 - While logged in as `grader`,
 - From the `/var/www` directory, Clone the catalog project:<br>
-`sudo git clone https://github.com/YVenkatesh7/catalog.git`.
+`sudo git clone https://github.com/BabaMalik/catalog.git`.
 - Change the ownership of the `catalog` directory to `grader` using: `sudo chown -R grader:grader catalog/`.
 - Change to the `/var/www/catalog/catalog` directory.
 - Rename the `main.py` file to `__init__.py` using: `mv shoestore.py __init__.py`.
@@ -212,9 +212,9 @@ as authorized redirect URI.
   - Paste this code: 
   ```
   <VirtualHost *:80>
-      ServerName 54.167.43.146.xip.io
-      ServerAlias ec2-54-167-43-146.compute-1.amazonaws.com
-      ServerAdmin ubuntu@54.167.43.146
+      ServerName  204.236.208.97.xip.io
+      ServerAlias ec2-204-236-208-97.compute-1.amazonaws.com
+      ServerAdmin ubuntu@204.236.208.97
       WSGIDaemonProcess catalog python-path=/var/www/catalog:/var/www/catalog/catalog/venv3/lib/python3.5/site-packages
       WSGIProcessGroup catalog
       WSGIScriptAlias / /var/www/catalog/catalog.wsgi
@@ -255,7 +255,7 @@ as authorized redirect URI.
 - Restart Apache: `sudo service apache2 restart`.
 - From the `/var/www/catalog/catalog/` directory, 
   activate the virtual environment: `. venv3/bin/activate`.
-- Run: `python Data_Setup.py`.
+- Run: `python Shoes_Setup.py`.
 - Deactivate the virtual environment: `deactivate`.
 
 ### Step 13.4: Disable the default Apache site
@@ -274,6 +274,6 @@ The following prompt will be returned:
 ### Step 13.5: Launch the Web Application
 
 - Restart Apache again: `sudo service apache2 restart`.
-- Open your browser to http://54.167.43.146.xip.io or http://ec2-54-167-43-146.compute-1.amazonaws.com.
+- Open your browser to  http://204.236.208.97.xip.io/ or  http://ec2-204-236-208-97.compute-1.amazonaws.com.
 
 **Special Thanks to [Alain Boisvert](https://github.com/boisalai)* for a very helpful README in Linux Server Configuration Project-Udacity**
