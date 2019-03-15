@@ -1,5 +1,5 @@
 # Linux_Configuration
-#Prepared by Yekkanti Venkatesh
+#Prepared by SHAIK BABA MALIK HUSSAIN
 
 This is the final project for Udacity's [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004). 
 
