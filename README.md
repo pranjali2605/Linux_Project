@@ -16,7 +16,7 @@ You can visit http://204.236.208.97.xip.io/ or http://ec2-204-236-208-97.compute
 
   - Login to *[aws.amazon.com](https://console.aws.amazon.com)* and login to default user (ubuntu)
   - Choose EC2 and Launch Instance with appropriate settings.
-  - Check for instance IPv4 public IP - 54.167.43.146
+  - Check for instance IPv4 public IP - 204.236.208.97
   - we can download a .pem file and connect with following command
     ```
     ssh -i Malik.pem ubuntu@204.236.208.97
