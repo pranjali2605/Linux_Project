@@ -99,8 +99,8 @@ sudo apt-get upgrade
 
 - Below this line, add a new line to give sudo privileges to `grader` user.
   ```
-  root    ALL=(ALL:ALL) ALL
-  grader  ALL=(ALL:ALL) ALL
+  root    ALL=(ALL:ALL) ALL.  
+  grader  ALL=(ALL:ALL) ALL. 
   ```
 
 - Save and exit using CTRL+X and confirm with Y.
