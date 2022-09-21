@@ -1,5 +1,5 @@
 # Linux_Configuration
-#Prepared by SHAIK BABA MALIK HUSSAIN
+# Prepared by BABA MALIK
 
 This is the final project for Udacity's [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004). 
 
